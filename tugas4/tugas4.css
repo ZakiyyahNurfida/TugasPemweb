@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+}
+.td1 {
+    padding: left; font-size: 30px;
+}
+.td2 {
+    padding: left; font-size: 20px; text-align : right;
+}
+.td3 {
+    padding: left;
+}
+.td4 {
+    padding: 5px 0; box-align : right
+}
+
+.column {
+    float: left;
+    width: 33,33%;
+    padding: 25px;
+    margin: 25px;
+}
+
+.attachments {
+    width: 250px;
+    height: 185px;
+    border: 2px solid black;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.vid {
+    width: 250px;
+    height: 200px;
+    margin-right: 10px;
+}

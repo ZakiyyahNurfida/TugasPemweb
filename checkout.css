@@ -1,0 +1,90 @@
+.header {
+    background-color:rgba(157, 152, 152, 0.849);  border-bottom: 1px solid black;
+}
+.stylebody {
+    max-width: 70%; border: 1px solid black; margin: auto;
+}
+.nav1 {
+    display: flex; padding: 15px; border-bottom: 1px solid black;
+}
+.ul1 {
+    display: flex; list-style-type: none; gap: 10px; margin-right: 50px;
+}
+.a1 {
+    text-decoration: none; width: 16; height: 16; fill:beige; 
+}
+.bb {
+    display: flex; list-style-type: none; gap: 10px;
+}
+.bc {
+    display: flex; list-style-type: none; gap: 10px; margin-left: auto;
+}
+.cb {
+    display: flex; gap: 5px;
+}
+.db {
+    display: flex; gap:20px; margin-top: 20px; padding: 20px;
+}
+.ul2 {
+    display: flex; list-style-type: none; gap: 10px;
+}
+.ul3 {
+    display: flex; list-style-type: none; gap: 10px; margin-left: auto;
+}
+.ty {
+    font-size: 25px;
+}
+.customer {
+    font-style: normal;
+}
+.tdd {
+    width: 300px;
+}
+.aside {
+    width: 40%; height: 50%; background-color:silver; padding: 10px; display: grid; align-items: center; margin-right: 10px;
+}
+.main1 {
+    width: 70%;
+}
+.table1 {
+    border: 0; text-align: center;
+}
+.thead {
+    text-align: left;
+}
+.td{
+    width: 300px;
+}
+.table2 {
+    width: 100%;
+}
+.td1 {
+    padding: 5px 0;
+}
+.td2 {
+    padding: 5px 0; text-align: right;
+}
+.footer {
+    margin-top: 100px; border-top: 1px solid black; padding: 10px; display: grid; gap: 10px;
+}
+.dc {
+    display: flex; gap: 5px;
+}
+.foot1 {
+   margin-right: 10px; font-weight: bolder;
+}
+.foot2 {
+    margin-right: 10px;
+}
+.foot3 {
+    margin-left: auto
+}
+.dd {
+    display: flex; gap: 5px;
+}
+.i1 {
+    font-weight: bolder; width: 161px;
+}
+.i2 {
+    background-color: rgba(128, 128, 128, 0.541); width: 70px;
+}
