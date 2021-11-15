@@ -1,0 +1,27 @@
+.row {
+    border: 1px solid black;
+    width: 1000px;
+    height: 700px;
+}
+
+.column {
+    border: 1px solid brown;
+    width: 200px;
+    height: 500px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.kuning {
+    background-color: yellow;
+}
+.merah {
+    background-color: red;
+}
+.hijau {
+    background-color: green;
+}
+.biru {
+    background-color: blue;
+}
