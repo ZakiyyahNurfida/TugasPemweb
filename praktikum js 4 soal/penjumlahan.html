@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<head>
+<title>Menghitung Dua Jumlah Bilangan</title>
+    <script LANGUAGE="JavaScript">
+        function cek(){
+            if(form.angka1.value == "" || form.angka2.value == ""){
+            alert("data kosong");
+            exit;
+        }
+        }
+        function tambah() {
+            cek(); 
+            a=eval(form.angka1.value); 
+            b=eval(form.angka2.value); 
+            c=a+b 
+            form.total.value = c; 
+        }
+    </script>
+</head>
+<body>
+    <form name="form">
+    Angka1
+    <input type=text name="angka1" size=3><br><br>
+    Angka2
+    <input name="angka2" type="text" size="3" /><br>
+    <br>
+    Hasil <input type="text" value="" name="total" size="9">
+    <br><br>
+
+    <input type=button name=submit onclick="tambah()" value="+">
+    </form>
+</body>
+</html>
