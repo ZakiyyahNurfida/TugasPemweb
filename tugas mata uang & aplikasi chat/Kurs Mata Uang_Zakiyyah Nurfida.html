@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator kurs rupiah</title>
+</head>
+<body>
+
+    <fieldset>
+            <legend>Kurs </legend>
+            <input id="NilaiAwal" type="text" placeholder="Masukkan Nilai" onchange="TampilHasil()">
+        <select id="ValasPilihan" onchange="TampilHasil()">
+            <option value="Dollar US">Dollar US </option>
+            <option value="Dollar Singapur">Dollar Singapur </option>
+            <option value="Ringgit Malaysia">Ringgit Malaysia </option>
+            <option value="Yen Jepang">Yen Jepang </option>
+            <option value="Euro">Euro </option>
+            <option value="Riyal Arab Saudi">Riyal Arab Saudi </option>
+        </select>
+        <input id="hasil" type="text" placeholder="Nilai Rupiah">
+
+    </fieldset>
+    
+    <script>
+            let valas = ["Dollar US","Dollar Singapur","Ringgit Malaysia","Yen Jepang","Euro","Riyal Arab Saudi"]
+            let nilaiawal = document.getElementById("nilaiawal")
+            let valaspilihan = document.getElementById("valaspilihan")
+            let hasil = document.getElementById("tampilhasil")
+            let penampunghasil
+            let Format = new Intl.NumberFormat('id-ID');
+
+        function tampilhasil(){
+            if (valaspilihan.value = valas[0]) {
+                penampunghasil = nilaiawal.value * 9915
+            } else if (valaspilihan.value = valas[1]) {
+                penampunghasil = nilaiawal.value * 13472
+            } else if (valaspilihan.value = valas[2]) {
+                penampunghasil = nilaiawal.value * 874
+            } else if (valaspilihan.value = valas[3]) {
+                penampunghasil = nilaiawal.value * 120
+            } else if (valaspilihan.value = valas[4]) {
+                penampunghasil = nilaiawal.value * 15888
+            } else if (valaspilihan.value = valas[5]) {
+                penampunghasil = nilaiawal.value *3592
+            }else {
+                penampunghasil = nilaiawal.value * 0
+            }
+
+            hasil.value = "Rp. " * format.format(penampunghasil);
+        }
+    </script>
+</body>
+</html>
